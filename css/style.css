@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Edu+SA+Beginner:wght@400;600;700&display=swap");
+
+font-family: "Dancing Script", cursive;
+font-family: "Edu SA Beginner", cursive;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Página index */
+
+/* Header */
+
+.header {
+  background-color: #f3b9dc;
+}
+
+.header h1 {
+  font-family: "Dancing Script", cursive;
+  position: absolute;
+  margin: 10px;
+  border: black 1px solid;
+}
+
+.header img {
+  position: absolute;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+}
+
+.header input {
+  position: relative;
+  left: 500px;
+  top: 15px;
+}
+
+.header nav {
+  font-family: "Edu SA Beginner", cursive;
+  position: relative;
+  top: 20px;
+}
+
+.header li {
+  display: inline-block;
+  margin: 40px;
+}
+
+/* Main Index*/
+
+.main {
+  background-color: #d0f4de;
+}
+
+.imgArriba {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+.imgcentral {
+  display: inline-block;
+  position: relative;
+  left: 130px;
+  margin: 10px;
+  width: 600px;
+  height: 150px;
+}
+
+.imgAbajo {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+.ubicacion {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #e4c1f9;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  left: 135px;
+}
+
+.instagram {
+  position: relative;
+  left: 350px;
+}
+
+.facebook {
+  position: relative;
+  left: 370px;
+
+}
+
+.footer p {
+  position: relative;
+  left: 370px;
+  font-style: oblique;
+}
+
+/* Cómo Comprar*/
+
+.header .imgcomocomprar {
+  position: absolute;
+  left: 170px;
+  top: 10px;
+}
+
+.main h3 {
+  font-size: 150%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.main ol {
+  padding: 20px;
+}
+
+.main li {
+  font-size: 100%;
+  margin: 20px;
+}
+
+/* Productos */
+.imgProductos {
+  position: absolute;
+  top: 0%;
+}
+
+main img{
+  width: 250px;
+  height: 270px;
+  margin: 10px;
+  padding: 10px;
+}
+
+main form{
+  margin: 10px;
+  padding: 20px;
+}
+
+.main aside{
+  display: inline-flex;
+  
+}
+
+/* Preguntas Frecuentes */
+.FAQ{
+padding: 30px;
+font-size: large;
+}
+
+.imgpf{
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 5px;
+}
+
+.main div {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.header{
+  display: grid;
+  grid-area: 1fr, 1fr, 1fr, 1fr;
+  
+}
